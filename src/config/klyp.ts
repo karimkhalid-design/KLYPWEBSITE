@@ -2,9 +2,13 @@ export const klyp = {
   appName: "KLYP",
   currentVersion: "1.0.0",
   releaseDate: "September 29, 2026",
-  installerUrl: "",
-  installerFilename: "KLYP-Setup-1.0.0.exe",
-  installerSize: "Pending final build",
+
+  installerUrl:
+    "https://github.com/karimkhalid-design/KLYP-Releases/releases/latest/download/KLYP-Setup-1.0.0.exe",
+
+  installerFilename: "KLYP-Setup.exe",
+  installerSize: "268 MB",
+
   discordUrl: "",
   siteUrl: "",
 } as const;
