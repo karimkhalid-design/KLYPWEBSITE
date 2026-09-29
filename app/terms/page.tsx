@@ -1,0 +1,4 @@
+import { LegalPage } from "@/components/legal-page";
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Terms", description: "KLYP terms of use." };
+export default function TermsPage() { return <LegalPage title="Terms of Use"><h2>Terms of use pending review</h2><p>The final KLYP terms have not yet been supplied. Before launch, replace this placeholder with reviewed language that accurately defines the license, acceptable use, update policy, warranties, limitations, termination, and governing terms.</p><h2>Topics to address</h2><ul><li>Software license and permitted use</li><li>User responsibilities and prohibited activity</li><li>Updates, availability, and support</li><li>Third-party games, platforms, and services</li><li>Warranty, liability, and governing law</li></ul><h2>Contact</h2><p>Add the official legal contact before publication.</p></LegalPage>; }

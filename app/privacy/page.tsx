@@ -1,0 +1,4 @@
+import { LegalPage } from "@/components/legal-page";
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Privacy", description: "KLYP privacy policy." };
+export default function PrivacyPage() { return <LegalPage title="Privacy Policy"><h2>Privacy policy pending review</h2><p>The final KLYP privacy policy has not yet been supplied. Before launch, replace this placeholder with reviewed language that accurately explains what information KLYP and this website collect, how that information is used, where it is stored, how long it is retained, and what choices users have.</p><h2>Topics to address</h2><ul><li>Website analytics and cookies, if any</li><li>Application diagnostics and crash reports, if any</li><li>Local clip and settings storage</li><li>Support and community communications</li><li>Data retention, deletion, and contact details</li></ul><h2>Contact</h2><p>Add the official privacy contact before publication.</p></LegalPage>; }
